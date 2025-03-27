@@ -44,8 +44,8 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">smsApp for Banks</h3>
               <p className="text-gray-400 mb-4">
-                Developed an SMS notification service for multiple banks, 
-                leveraging MySQL and Sybase databases for real-time transaction alerts.
+                Developed an SMS Alert service for multiple banks, 
+                leveraging MySQL Server and Sybase databases for real-time transaction alerts.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Java", "Spring Boot", "MySQL", "Sybase"].map((tech, key) => (
@@ -60,7 +60,34 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Godstime05/smsApp"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+                        {/* My Portfolio Website */}
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">My Portfolio Website</h3>
+              <p className="text-gray-400 mb-4">
+                Designed and deployed my portfolio website using React Vite and Tailwindcss. 
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Javascript", "ReactJs", "Tailwind CSS", ""].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20  
+                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://myportfolio-gtf.vercel.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
